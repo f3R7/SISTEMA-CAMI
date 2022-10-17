@@ -1,0 +1,7 @@
+CRITICAL - 2022-02-06 20:14:40 --> Unclosed '(' on line 12 does not match '}'
+#0 D:\xampp\htdocs\kinesport\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('api/fichaskines...')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/fichaskines...')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}

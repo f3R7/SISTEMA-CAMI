@@ -1,0 +1,112 @@
+CRITICAL - 2022-07-14 00:42:37 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 113)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-14 00:44:12 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 113)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-14 00:47:20 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 113)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-14 00:49:06 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 113)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-14 00:50:20 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 113)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-14 00:53:54 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 113)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-14 00:55:57 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 113)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-14 00:57:36 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 113)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-14 00:57:37 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 113)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-14 00:58:22 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 114)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-14 00:59:41 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 114)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-14 00:59:43 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 114)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-14 00:59:44 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 114)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-14 01:01:29 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 114)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-14 01:01:31 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 114)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-14 01:16:36 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 113)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

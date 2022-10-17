@@ -1,0 +1,98 @@
+CRITICAL - 2022-02-02 06:09:54 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Servicios->desactivar('1')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Servicios))
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-02 06:12:29 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Servicios->desactivar('1')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Servicios))
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-02 07:19:35 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Servicios->desactivar('3')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Servicios))
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-02 07:46:07 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Servicios->desactivar('3')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Servicios))
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-02 07:49:03 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Servicios->desactivar('5')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Servicios))
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-02 07:49:30 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Servicios->desactivar('4')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Servicios))
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-02 07:49:36 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Servicios->desactivar('4')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Servicios))
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-02 07:55:57 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Servicios->desactivar('4')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Servicios))
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-02 19:58:22 --> There is no data to update.
+#0 D:\xampp\htdocs\kinesport\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\kinesport\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(118): CodeIgniter\Model->update('70', Object(stdClass))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->updateadm('70')
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-02 19:58:30 --> There is no data to update.
+#0 D:\xampp\htdocs\kinesport\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\kinesport\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(118): CodeIgniter\Model->update('70', Object(stdClass))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->updateadm('70')
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-02 19:58:52 --> There is no data to update.
+#0 D:\xampp\htdocs\kinesport\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\kinesport\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(118): CodeIgniter\Model->update('70', Object(stdClass))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->updateadm('70')
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-02 19:58:57 --> There is no data to update.
+#0 D:\xampp\htdocs\kinesport\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\kinesport\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(118): CodeIgniter\Model->update('70', Object(stdClass))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->updateadm('70')
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-02 20:56:40 --> Undefined property: stdClass::$Foto
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 38)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 21:02:14 --> Undefined property: stdClass::$Foto
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 38)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}

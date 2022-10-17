@@ -1,0 +1,45 @@
+CRITICAL - 2022-07-28 17:21:21 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Productos.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 152)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Productos->upfile()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Productos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 21:45:49 --> syntax error, unexpected token "[", expecting identifier or variable or "{" or "$"
+#0 D:\xampp\htdocs\cami\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\cami\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 D:\xampp\htdocs\cami\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-28 21:46:12 --> syntax error, unexpected token "[", expecting identifier or variable or "{" or "$"
+#0 D:\xampp\htdocs\cami\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\cami\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 D:\xampp\htdocs\cami\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-28 21:57:23 --> syntax error, unexpected integer "0", expecting identifier or variable or "{" or "$"
+#0 D:\xampp\htdocs\cami\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\cami\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 D:\xampp\htdocs\cami\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-28 21:59:22 --> Array to string conversion
+#0 D:\xampp\htdocs\cami\system\Autoloader\Autoloader.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\xampp\\htdocs...', 48)
+#1 D:\xampp\htdocs\cami\system\Autoloader\Autoloader.php(264): include_once()
+#2 D:\xampp\htdocs\cami\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\cami\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#5 D:\xampp\htdocs\cami\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#6 D:\xampp\htdocs\cami\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#7 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

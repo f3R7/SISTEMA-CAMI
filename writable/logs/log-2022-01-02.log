@@ -1,0 +1,265 @@
+CRITICAL - 2022-01-02 18:36:32 --> There is no data to insert.
+#0 D:\xampp\htdocs\kinesport\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 D:\xampp\htdocs\kinesport\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(NULL, 'insert')
+#2 D:\xampp\htdocs\kinesport\system\Model.php(620): CodeIgniter\BaseModel->insert(NULL, true)
+#3 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(24): CodeIgniter\Model->insert(NULL)
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->create()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#6 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-02 18:50:18 --> syntax error, unexpected single-quoted string "alpha_space_numeric", expecting "]"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Usua...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Usua...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Usuarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-02 18:51:02 --> syntax error, unexpected single-quoted string "alpha_space_numeric", expecting "]"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Usua...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Usua...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Usuarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-02 19:20:23 --> Class "App\Models\RolModel" not found
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Roles->__construct()
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-02 19:21:05 --> Class "App\Models\RolModel" not found
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Roles->__construct()
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-02 19:22:27 --> Class "App\Models\RolModel" not found
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Roles->__construct()
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-02 19:24:52 --> Class "App\Models\RolModel" not found
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Roles->__construct()
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-02 20:08:47 --> syntax error, unexpected single-quoted string "min_length", expecting "]"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pers...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pers...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Personas->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-02 20:09:01 --> syntax error, unexpected single-quoted string "min_length", expecting "]"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pers...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pers...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Personas->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-02 20:09:13 --> syntax error, unexpected single-quoted string "min_length", expecting "]"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pers...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pers...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Personas->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-02 20:09:57 --> syntax error, unexpected single-quoted string "min_length", expecting "]"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pers...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pers...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Personas->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-02 20:10:39 --> syntax error, unexpected single-quoted string "min_length", expecting "]"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pers...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pers...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Personas->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-02 20:11:36 --> syntax error, unexpected single-quoted string "min_length", expecting "]"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pers...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pers...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Personas->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-02 20:13:16 --> syntax error, unexpected token "return"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-02 20:13:44 --> syntax error, unexpected token "return"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-02 20:14:44 --> syntax error, unexpected single-quoted string "min_length", expecting "]"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pers...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pers...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Personas->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-02 20:15:49 --> syntax error, unexpected single-quoted string "min_length", expecting "]"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pers...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pers...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Personas->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-02 20:22:51 --> syntax error, unexpected single-quoted string "alpha_space_numeric", expecting "]"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Usua...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Usua...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Usuarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-02 20:35:46 --> syntax error, unexpected single-quoted string "alpha_space_numeric", expecting "]"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Usua...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Usua...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Usuarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-02 20:36:35 --> syntax error, unexpected single-quoted string "alpha_space_numeric", expecting "]"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Usua...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Usua...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Usuarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-02 20:37:09 --> alpha_space_numeric is not a valid rule.
+#0 D:\xampp\htdocs\kinesport\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('alpha_space_num...')
+#1 D:\xampp\htdocs\kinesport\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('Login', 'Login', 'Pedrito', Array, Array)
+#2 D:\xampp\htdocs\kinesport\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 D:\xampp\htdocs\kinesport\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 D:\xampp\htdocs\kinesport\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(24): CodeIgniter\Model->insert(Object(stdClass))
+#6 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->create()
+#7 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#8 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-02 20:37:38 --> alpha_space_numeric is not a valid rule.
+#0 D:\xampp\htdocs\kinesport\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('alpha_space_num...')
+#1 D:\xampp\htdocs\kinesport\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('Login', 'Login', 'Pedrito', Array, Array)
+#2 D:\xampp\htdocs\kinesport\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 D:\xampp\htdocs\kinesport\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 D:\xampp\htdocs\kinesport\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(24): CodeIgniter\Model->insert(Object(stdClass))
+#6 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->create()
+#7 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#8 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-02 20:39:42 --> alpha_space_numeric is not a valid rule.
+#0 D:\xampp\htdocs\kinesport\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('alpha_space_num...')
+#1 D:\xampp\htdocs\kinesport\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('Login', 'Login', 'Pedrito', Array, Array)
+#2 D:\xampp\htdocs\kinesport\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 D:\xampp\htdocs\kinesport\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 D:\xampp\htdocs\kinesport\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(24): CodeIgniter\Model->insert(Object(stdClass))
+#6 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->create()
+#7 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#8 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-02 20:39:44 --> alpha_space_numeric is not a valid rule.
+#0 D:\xampp\htdocs\kinesport\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('alpha_space_num...')
+#1 D:\xampp\htdocs\kinesport\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('Login', 'Login', 'Pedrito', Array, Array)
+#2 D:\xampp\htdocs\kinesport\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 D:\xampp\htdocs\kinesport\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 D:\xampp\htdocs\kinesport\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(24): CodeIgniter\Model->insert(Object(stdClass))
+#6 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->create()
+#7 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#8 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-02 20:39:54 --> alpha_space_numeric is not a valid rule.
+#0 D:\xampp\htdocs\kinesport\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('alpha_space_num...')
+#1 D:\xampp\htdocs\kinesport\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('Login', 'Login', 'Pedrito', Array, Array)
+#2 D:\xampp\htdocs\kinesport\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 D:\xampp\htdocs\kinesport\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 D:\xampp\htdocs\kinesport\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(24): CodeIgniter\Model->insert(Object(stdClass))
+#6 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->create()
+#7 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#8 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-02 20:40:18 --> alpha_space_numeric is not a valid rule.
+#0 D:\xampp\htdocs\kinesport\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('alpha_space_num...')
+#1 D:\xampp\htdocs\kinesport\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('Login', 'Login', 'Pedrito', Array, Array)
+#2 D:\xampp\htdocs\kinesport\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 D:\xampp\htdocs\kinesport\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 D:\xampp\htdocs\kinesport\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(24): CodeIgniter\Model->insert(Object(stdClass))
+#6 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->create()
+#7 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#8 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-02 20:47:09 --> alpha_space_numeric is not a valid rule.
+#0 D:\xampp\htdocs\kinesport\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('alpha_space_num...')
+#1 D:\xampp\htdocs\kinesport\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('Login', 'Login', 'Pedrito23', Array, Array)
+#2 D:\xampp\htdocs\kinesport\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 D:\xampp\htdocs\kinesport\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 D:\xampp\htdocs\kinesport\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(24): CodeIgniter\Model->insert(Object(stdClass))
+#6 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->create()
+#7 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#8 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-02 20:47:26 --> alpha_space_numeric is not a valid rule.
+#0 D:\xampp\htdocs\kinesport\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('alpha_space_num...')
+#1 D:\xampp\htdocs\kinesport\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('Login', 'Login', 'Pedrito23', Array, Array)
+#2 D:\xampp\htdocs\kinesport\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 D:\xampp\htdocs\kinesport\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 D:\xampp\htdocs\kinesport\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(24): CodeIgniter\Model->insert(Object(stdClass))
+#6 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->create()
+#7 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#8 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

@@ -1,0 +1,270 @@
+CRITICAL - 2022-02-11 22:12:44 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp4\htdocs\kinesport\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp4\htdocs\kinesport\index.php(34): require('C:\\xampp4\\htdoc...')
+#2 {main}
+CRITICAL - 2022-02-11 22:12:53 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp4\htdocs\kinesport\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp4\htdocs\kinesport\index.php(34): require('C:\\xampp4\\htdoc...')
+#2 {main}
+CRITICAL - 2022-02-11 22:13:06 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp4\htdocs\kinesport\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp4\htdocs\kinesport\index.php(34): require('C:\\xampp4\\htdoc...')
+#2 {main}
+ERROR - 2022-02-11 15:48:23 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-02-11 15:48:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp4\htdocs\kinesport\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp4\htdocs\kinesport\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp4\htdocs\kinesport\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp4\htdocs\kinesport\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(23): CodeIgniter\BaseModel->first()
+#5 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-02-11 17:25:29 --> Unknown column 'persona.Nombres' in 'field list'
+CRITICAL - 2022-02-11 17:25:29 --> Call to a member function getResult() on bool
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\API\FichasKinesicas.php(146): App\Models\Ficha_KinesicaModel->pacienteficha()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\FichasKinesicas->pacienteficha()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\FichasKinesicas))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-11 17:25:43 --> Unknown column 'persona.Nombres' in 'field list'
+CRITICAL - 2022-02-11 17:25:43 --> Call to a member function getResult() on bool
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\API\FichasKinesicas.php(146): App\Models\Ficha_KinesicaModel->pacienteficha()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\FichasKinesicas->pacienteficha()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\FichasKinesicas))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-11 17:25:55 --> Unknown column 'persona.Nombres' in 'field list'
+CRITICAL - 2022-02-11 17:25:55 --> Call to a member function getResult() on bool
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\API\FichasKinesicas.php(146): App\Models\Ficha_KinesicaModel->pacienteficha()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\FichasKinesicas->pacienteficha()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\FichasKinesicas))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-11 17:35:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'EXIST (SELECT IdPersona FROM ficha_kinesica)' at line 3
+CRITICAL - 2022-02-11 17:35:09 --> Call to a member function getResult() on bool
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\API\FichasKinesicas.php(146): App\Models\Ficha_KinesicaModel->pacienteficha()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\FichasKinesicas->pacienteficha()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\FichasKinesicas))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-11 17:35:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'EXIST (SELECT IdPersona FROM ficha_kinesica)' at line 3
+CRITICAL - 2022-02-11 17:35:11 --> Call to a member function getResult() on bool
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\API\FichasKinesicas.php(146): App\Models\Ficha_KinesicaModel->pacienteficha()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\FichasKinesicas->pacienteficha()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\FichasKinesicas))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-11 17:35:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'EXIST (SELECT IdPersona FROM ficha_kinesica)' at line 3
+CRITICAL - 2022-02-11 17:35:52 --> Call to a member function getResult() on bool
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\API\FichasKinesicas.php(146): App\Models\Ficha_KinesicaModel->pacienteficha()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\FichasKinesicas->pacienteficha()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\FichasKinesicas))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-11 17:36:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'EXIST (SELECT IdPersona FROM ficha_kinesica)' at line 3
+CRITICAL - 2022-02-11 17:36:17 --> Call to a member function getResult() on bool
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\API\FichasKinesicas.php(146): App\Models\Ficha_KinesicaModel->pacienteficha()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\FichasKinesicas->pacienteficha()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\FichasKinesicas))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-11 17:44:30 --> Unknown column 'usuario.Estado' in 'field list'
+CRITICAL - 2022-02-11 17:44:30 --> Call to a member function getResult() on bool
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\API\Personas.php(231): App\Models\PersonaModel->pacienteficha()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->pacienteficha()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-11 17:44:43 --> Unknown column 'usuario.Estado' in 'field list'
+CRITICAL - 2022-02-11 17:44:43 --> Call to a member function getResult() on bool
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\API\Personas.php(231): App\Models\PersonaModel->pacienteficha()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->pacienteficha()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-11 17:46:11 --> Unknown column 'usuario.Estado' in 'field list'
+CRITICAL - 2022-02-11 17:46:11 --> Call to a member function getResult() on bool
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\API\Personas.php(231): App\Models\PersonaModel->pacienteficha()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->pacienteficha()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 20:39:45 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->paciente('$i')
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 20:41:07 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->paciente('$i')
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 20:41:44 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->paciente('$i')
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 20:41:47 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->paciente('$i')
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 20:42:51 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->paciente('$i')
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 20:57:30 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('$i')
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 21:01:23 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('$i')
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 21:08:40 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('$i')
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 21:09:00 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('$i')
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 21:11:23 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('$i')
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 21:11:46 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('$i')
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 21:13:12 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('$i')
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 21:14:15 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('$i')
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 21:15:09 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('$i')
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 21:15:10 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('$i')
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 21:15:11 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('$i')
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 21:15:11 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('$i')
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 21:15:12 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('$i')
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 21:21:30 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('$i')
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 21:21:56 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('$i')
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 21:21:58 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('$i')
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 21:28:09 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('110')
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 21:28:36 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('110')
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 21:29:05 --> Undefined variable $usuario
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\API\HistorialesClinicos.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp4\\htdoc...', 111)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('110')
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 23:50:38 --> There is no data to insert.
+#0 C:\xampp4\htdocs\kinesport\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp4\htdocs\kinesport\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(NULL, 'insert')
+#2 C:\xampp4\htdocs\kinesport\system\Model.php(620): CodeIgniter\BaseModel->insert(NULL, true)
+#3 C:\xampp4\htdocs\kinesport\app\Controllers\API\HistorialesClinicos.php(24): CodeIgniter\Model->insert(NULL)
+#4 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->create()
+#5 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#6 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-11 23:51:12 --> There is no data to insert.
+#0 C:\xampp4\htdocs\kinesport\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp4\htdocs\kinesport\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(NULL, 'insert')
+#2 C:\xampp4\htdocs\kinesport\system\Model.php(620): CodeIgniter\BaseModel->insert(NULL, true)
+#3 C:\xampp4\htdocs\kinesport\app\Controllers\API\HistorialesClinicos.php(24): CodeIgniter\Model->insert(NULL)
+#4 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->create()
+#5 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#6 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#8 {main}

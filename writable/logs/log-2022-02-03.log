@@ -1,0 +1,247 @@
+CRITICAL - 2022-02-03 05:31:12 --> Undefined property: stdClass::$Foto
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 38)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 06:15:52 --> Undefined property: stdClass::$Foto
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 38)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 15:55:44 --> Undefined property: stdClass::$Contrasena
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 33)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 16:06:33 --> Undefined property: stdClass::$Contrasena
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 33)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 16:17:53 --> Undefined property: stdClass::$Contrasena
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 33)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 16:28:13 --> Undefined property: stdClass::$Contrasena
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 33)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 16:31:39 --> Undefined property: stdClass::$Contrasena
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 33)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 16:36:23 --> Undefined property: stdClass::$Clave
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 34)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 16:36:30 --> Undefined property: stdClass::$Clave
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 34)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 16:39:17 --> Undefined property: stdClass::$Clave
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 34)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 16:39:41 --> Undefined property: stdClass::$Clave
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 34)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 16:40:12 --> Undefined property: stdClass::$Clave
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 32)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 16:41:24 --> Undefined property: stdClass::$Clave
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 32)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 16:43:47 --> Undefined property: stdClass::$Contrasena
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 33)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 16:45:48 --> Undefined property: stdClass::$Contrasena
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 33)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 16:45:50 --> Undefined property: stdClass::$Contrasena
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 33)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 16:52:04 --> Undefined property: stdClass::$Contrasena
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 33)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 16:52:05 --> Undefined property: stdClass::$Contrasena
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 33)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 16:53:19 --> Undefined property: stdClass::$Contrasena
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 33)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 16:54:09 --> Undefined property: stdClass::$Usuario
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 38)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 16:54:54 --> Undefined property: stdClass::$Usuario
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 38)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 16:55:10 --> Undefined property: stdClass::$Usuario
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 38)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 16:56:33 --> Undefined property: stdClass::$Foto
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 38)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-03 17:20:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`persona`.`IdPersona`
+WHERE `usuario`.`IdPersona` = '7'' at line 4
+CRITICAL - 2022-02-03 17:20:37 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(284): App\Models\UsuarioModel->listperfil('7')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('7')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-03 17:20:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`persona`.`IdPersona`
+WHERE `usuario`.`IdPersona` = '7'' at line 4
+CRITICAL - 2022-02-03 17:20:40 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(284): App\Models\UsuarioModel->listperfil('7')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('7')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-03 17:20:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`persona`.`IdPersona`
+WHERE `usuario`.`IdPersona` = '89'' at line 4
+CRITICAL - 2022-02-03 17:20:47 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(284): App\Models\UsuarioModel->listperfil('89')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('89')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-03 17:21:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`persona`.`IdPersona`
+WHERE `usuario`.`IdPersona` = '7'' at line 4
+CRITICAL - 2022-02-03 17:21:05 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(284): App\Models\UsuarioModel->listperfil('7')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('7')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-03 17:21:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`persona`.`IdPersona`
+WHERE `usuario`.`IdPersona` = '89'' at line 4
+CRITICAL - 2022-02-03 17:21:08 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(284): App\Models\UsuarioModel->listperfil('89')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('89')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 18:16:03 --> Call to a member function insertID() on array
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->updateadm('89')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-03 18:18:04 --> Attempt to read property "validation" on array
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 106)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->updateadm('89')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 18:18:38 --> Attempt to read property "validation" on array
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 106)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->updateadm('89')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 18:19:32 --> Attempt to read property "validation" on array
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 106)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->updateadm('89')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 18:24:02 --> Attempt to read property "validation" on array
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 106)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->updateadm('89')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 18:29:43 --> Attempt to read property "validation" on array
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Personas.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 106)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->updateadm('89')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}

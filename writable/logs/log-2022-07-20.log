@@ -1,0 +1,8 @@
+ERROR - 2022-07-20 14:16:58 --> Unknown column 'prodicto.Descripcion' in 'field list'
+CRITICAL - 2022-07-20 14:16:58 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Productos.php(182): App\Models\ProductoModel->listaproductos()
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Productos->listaproductos()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Productos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,193 @@
+CRITICAL - 2022-02-15 00:31:28 --> Call to a member function FindAll() on null
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->listservicios()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-15 00:32:29 --> Call to a member function FindAll() on null
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->listservicios()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-15 00:32:39 --> Call to a member function FindAll() on null
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->listservicios()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-15 00:45:13 --> Call to a member function FindAll() on null
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->listservicios()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-15 00:45:15 --> Call to a member function FindAll() on null
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->listservicios()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-15 00:45:16 --> Call to a member function FindAll() on null
+#0 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->listservicios()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-02-15 09:32:34 --> Unknown column 'reserva.IdPersona' in 'on clause'
+CRITICAL - 2022-02-15 09:32:34 --> Call to a member function getResult() on bool
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\API\Reservas.php(128): App\Models\ReservaModel->listareserva()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Reservas->listareserva()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Reservas))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-15 09:56:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':%M) As FechaSolicitud, `reserva`.`Hora`, `reserva`.`FechaSolicitud`, `reserv...' at line 1
+CRITICAL - 2022-02-15 09:56:34 --> Call to a member function getResult() on bool
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\API\Reservas.php(128): App\Models\ReservaModel->listareserva()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Reservas->listareserva()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Reservas))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-15 09:56:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':%M) As FechaSolicitud, `reserva`.`Hora`, `reserva`.`FechaSolicitud`, `reserv...' at line 1
+CRITICAL - 2022-02-15 09:56:36 --> Call to a member function getResult() on bool
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\API\Reservas.php(128): App\Models\ReservaModel->listareserva()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Reservas->listareserva()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Reservas))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-15 09:57:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':%i) As FechaSolicitud, `reserva`.`Hora`, `reserva`.`FechaSolicitud`, `reserv...' at line 1
+CRITICAL - 2022-02-15 09:57:18 --> Call to a member function getResult() on bool
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\API\Reservas.php(128): App\Models\ReservaModel->listareserva()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Reservas->listareserva()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Reservas))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-15 09:57:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':%i) As FechaSolicitud, `reserva`.`Hora`, `reserva`.`FechaSolicitud`, `reserv...' at line 1
+CRITICAL - 2022-02-15 09:57:20 --> Call to a member function getResult() on bool
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\API\Reservas.php(128): App\Models\ReservaModel->listareserva()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Reservas->listareserva()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Reservas))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-15 09:57:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':%i) As FechaSolicitud, `reserva`.`Hora`, `reserva`.`FechaSolicitud`, `reserv...' at line 1
+CRITICAL - 2022-02-15 09:57:43 --> Call to a member function getResult() on bool
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\API\Reservas.php(128): App\Models\ReservaModel->listareserva()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Reservas->listareserva()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Reservas))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-15 09:59:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':%i) As FechaSolicitud, `reserva`.`Hora`, `reserva`.`FechaSolicitud`, `reserv...' at line 1
+CRITICAL - 2022-02-15 09:59:07 --> Call to a member function getResult() on bool
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\API\Reservas.php(128): App\Models\ReservaModel->listareserva()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Reservas->listareserva()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Reservas))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-15 10:01:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':%i") As FechaSolicitud, `reserva`.`Hora`, `reserva`.`FechaSolicitud`, `reser...' at line 1
+CRITICAL - 2022-02-15 10:01:05 --> Call to a member function getResult() on bool
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\API\Reservas.php(128): App\Models\ReservaModel->listareserva()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Reservas->listareserva()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Reservas))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-15 10:01:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':%i") As FechaSolicitud, `reserva`.`Hora`, `reserva`.`FechaSolicitud`, `reser...' at line 1
+CRITICAL - 2022-02-15 10:01:14 --> Call to a member function getResult() on bool
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\API\Reservas.php(128): App\Models\ReservaModel->listareserva()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Reservas->listareserva()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Reservas))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-15 10:01:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':%i") As FechaSolicitud, `reserva`.`Hora`, `reserva`.`FechaSolicitud`, `reser...' at line 1
+CRITICAL - 2022-02-15 10:01:16 --> Call to a member function getResult() on bool
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\API\Reservas.php(128): App\Models\ReservaModel->listareserva()
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Reservas->listareserva()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Reservas))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-15 18:06:59 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 149)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-15 18:09:50 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 149)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-15 18:11:24 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 149)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-15 18:13:25 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 149)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-15 18:14:31 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 149)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-15 18:16:29 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 149)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-15 18:16:52 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 149)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-15 18:17:46 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 149)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-15 18:23:24 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 149)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-15 18:26:59 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 149)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-15 18:28:31 --> Undefined array key "foto"
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 149)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

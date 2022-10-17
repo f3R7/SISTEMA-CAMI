@@ -1,0 +1,40 @@
+ERROR - 2022-08-31 08:43:09 --> Unknown column 'producto.Imagen' in 'field list'
+CRITICAL - 2022-08-31 08:43:09 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cami\app\Controllers\API\Productos.php(182): App\Models\ProductoModel->listaproductos()
+#1 C:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Productos->listaproductos()
+#2 C:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Productos))
+#3 C:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-31 08:43:17 --> Unknown column 'producto.Imagen' in 'field list'
+CRITICAL - 2022-08-31 08:43:17 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cami\app\Controllers\API\Productos.php(182): App\Models\ProductoModel->listaproductos()
+#1 C:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Productos->listaproductos()
+#2 C:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Productos))
+#3 C:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-31 08:44:28 --> Unknown column 'producto.Imagen' in 'field list'
+CRITICAL - 2022-08-31 08:44:28 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cami\app\Controllers\API\Productos.php(182): App\Models\ProductoModel->listaproductos()
+#1 C:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Productos->listaproductos()
+#2 C:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Productos))
+#3 C:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-31 08:47:48 --> Unknown column 'producto.Imagen' in 'field list'
+CRITICAL - 2022-08-31 08:47:48 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cami\app\Controllers\API\Productos.php(182): App\Models\ProductoModel->listaproductos()
+#1 C:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Productos->listaproductos()
+#2 C:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Productos))
+#3 C:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-31 08:47:53 --> Unknown column 'producto.Imagen' in 'field list'
+CRITICAL - 2022-08-31 08:47:53 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\cami\app\Controllers\API\Productos.php(182): App\Models\ProductoModel->listaproductos()
+#1 C:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Productos->listaproductos()
+#2 C:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Productos))
+#3 C:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

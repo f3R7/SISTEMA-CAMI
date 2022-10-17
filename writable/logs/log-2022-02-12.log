@@ -1,0 +1,126 @@
+CRITICAL - 2022-02-12 16:11:16 --> Undefined variable $usuario
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp4\\htdoc...', 63)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->percreate()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 16:11:46 --> Undefined variable $usuario
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp4\\htdoc...', 63)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->percreate()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 16:12:07 --> Undefined variable $usuario
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp4\\htdoc...', 63)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->percreate()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 16:13:21 --> Undefined variable $usuario
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp4\\htdoc...', 63)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->percreate()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 16:15:01 --> Undefined variable $id
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp4\\htdoc...', 65)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->percreate()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 16:21:26 --> Undefined variable $id
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp4\\htdoc...', 64)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->percreate()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 20:31:34 --> Undefined variable $id
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp4\\htdoc...', 64)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->percreate()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 20:36:40 --> Undefined variable $id
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp4\\htdoc...', 64)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->percreate()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 20:39:16 --> Attempt to read property "Clave" on null
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp4\\htdoc...', 59)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->percreate()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 20:39:27 --> Attempt to read property "Clave" on null
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp4\\htdoc...', 59)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->percreate()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 20:41:24 --> Attempt to read property "Clave" on null
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp4\\htdoc...', 59)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->percreate()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 20:41:58 --> Attempt to read property "Clave" on null
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp4\\htdoc...', 59)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->percreate()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 20:45:46 --> Attempt to read property "Clave" on null
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp4\\htdoc...', 59)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->percreate()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 20:47:13 --> Attempt to read property "Clave" on null
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp4\\htdoc...', 41)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->create()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 21:25:21 --> Attempt to read property "Clave" on null
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp4\\htdoc...', 41)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->create()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 21:25:49 --> Attempt to read property "Clave" on null
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp4\\htdoc...', 41)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->create()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 21:25:56 --> Attempt to read property "Clave" on null
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp4\\htdoc...', 41)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->create()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 21:27:33 --> Attempt to read property "Clave" on null
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp4\\htdoc...', 41)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->create()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

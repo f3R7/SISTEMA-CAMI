@@ -1,0 +1,83 @@
+CRITICAL - 2022-01-07 11:00:06 --> Call to undefined method Firebase\JWT\JWT::enconde()
+#0 D:\xampp\htdocs\kinesport\app\Controllers\Auth.php(28): App\Controllers\Auth->generate_JWT(Array)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-07 11:00:35 --> Call to undefined method Firebase\JWT\JWT::enconde()
+#0 D:\xampp\htdocs\kinesport\app\Controllers\Auth.php(28): App\Controllers\Auth->generate_JWT(Array)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-07 11:01:39 --> Call to undefined method Firebase\JWT\JWT::enconde()
+#0 D:\xampp\htdocs\kinesport\app\Controllers\Auth.php(27): App\Controllers\Auth->generate_JWT(Array)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-07 11:03:25 --> Call to undefined method Firebase\JWT\JWT::enconde()
+#0 D:\xampp\htdocs\kinesport\app\Controllers\Auth.php(27): App\Controllers\Auth->generate_JWT(Array)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-07 11:03:41 --> Call to undefined method Firebase\JWT\JWT::enconde()
+#0 D:\xampp\htdocs\kinesport\app\Controllers\Auth.php(27): App\Controllers\Auth->generate_JWT(Array)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-07 11:04:02 --> Call to undefined method Firebase\JWT\JWT::enconde()
+#0 D:\xampp\htdocs\kinesport\app\Controllers\Auth.php(27): App\Controllers\Auth->generate_JWT(Array)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-07 11:04:19 --> Call to undefined method Firebase\JWT\JWT::enconde()
+#0 D:\xampp\htdocs\kinesport\app\Controllers\Auth.php(27): App\Controllers\Auth->generate_JWT(Array)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-07 11:07:20 --> Call to undefined method Firebase\JWT\JWT::enconde()
+#0 D:\xampp\htdocs\kinesport\app\Controllers\Auth.php(27): App\Controllers\Auth->generate_JWT(Array)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->login()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-07 12:02:18 --> Array to string conversion
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'D:\\xampp\\htdocs...', 89)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->desactivar('10')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-07 12:06:07 --> Attempt to assign property "Estado" on array
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->desactivar('10')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-07 12:07:03 --> Attempt to read property "Estado" on array
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 89)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->desactivar('10')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-07 12:07:34 --> Attempt to read property "Estado" on array
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 89)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->desactivar('10')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

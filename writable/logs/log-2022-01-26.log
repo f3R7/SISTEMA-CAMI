@@ -1,0 +1,18 @@
+ERROR - 2022-01-26 04:31:30 --> Unknown column 'usuarios.IdPersona' in 'on clause'
+CRITICAL - 2022-01-26 04:31:30 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(23): App\Models\UsuarioModel->listusu()
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->index()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-26 18:50:29 --> There is no data to insert.
+#0 D:\xampp\htdocs\kinesport\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 D:\xampp\htdocs\kinesport\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(NULL, 'insert')
+#2 D:\xampp\htdocs\kinesport\system\Model.php(620): CodeIgniter\BaseModel->insert(NULL, true)
+#3 D:\xampp\htdocs\kinesport\app\Controllers\API\Roles.php(24): CodeIgniter\Model->insert(NULL)
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Roles->create()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Roles))
+#6 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\kinesport\index.php(43): CodeIgniter\CodeIgniter->run()
+#8 {main}

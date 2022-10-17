@@ -1,0 +1,25 @@
+CRITICAL - 2022-01-20 16:32:42 --> syntax error, unexpected token "if"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-20 16:35:33 --> syntax error, unexpected variable "$path"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-20 16:37:04 --> Undefined variable $paths
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Usuarios.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 107)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->upfile()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

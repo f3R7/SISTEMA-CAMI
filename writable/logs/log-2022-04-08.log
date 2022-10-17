@@ -1,0 +1,671 @@
+CRITICAL - 2022-04-08 11:19:26 --> syntax error, unexpected integer "2022", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Serv...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Servicios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Serv...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Servicios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:13:39 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:13:44 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:18:43 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:19:05 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:19:06 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:19:07 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:19:08 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:19:33 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:19:56 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:20:17 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:20:19 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:20:20 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:21:06 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:21:07 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:21:17 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:22:33 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:23:17 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:23:41 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:24:38 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:24:54 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:25:47 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:25:49 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:25:55 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:25:56 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:25:56 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:25:57 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:25:58 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:25:59 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:26:11 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:26:45 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:27:18 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:27:20 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:27:36 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:28:13 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:28:35 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:28:42 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:28:43 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:28:43 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:29:06 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:29:34 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:29:35 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:29:36 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:29:43 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:30:16 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:30:44 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:31:28 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:32:19 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:33:06 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:33:07 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:33:44 --> syntax error, unexpected variable "$fecha", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:36:33 --> Attempt to read property "Fecha" on null
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 24)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Horarios->listahorarios()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Horarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-08 14:36:56 --> Attempt to read property "Fecha" on null
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 24)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Horarios->listahorarios()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Horarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-08 14:37:34 --> Attempt to read property "Fecha" on null
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 24)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Horarios->listahorarios()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Horarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-08 14:38:46 --> Attempt to read property "fecha" on null
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 24)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Horarios->listahorarios('')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Horarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-08 14:45:24 --> syntax error, unexpected token "/", expecting "function" or "const"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:45:58 --> syntax error, unexpected token "/", expecting "function" or "const"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:46:08 --> syntax error, unexpected token "/", expecting "function" or "const"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:49:19 --> syntax error, unexpected token "/", expecting "function" or "const"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:49:39 --> syntax error, unexpected token "/", expecting "function" or "const"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:50:10 --> syntax error, unexpected token "/", expecting "function" or "const"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:50:39 --> syntax error, unexpected token "/", expecting "function" or "const"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:50:41 --> syntax error, unexpected token "/", expecting "function" or "const"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:50:41 --> syntax error, unexpected token "/", expecting "function" or "const"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:51:25 --> syntax error, unexpected token "/", expecting "function" or "const"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:51:56 --> syntax error, unexpected token "/", expecting "function" or "const"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:52:00 --> syntax error, unexpected token "/", expecting "function" or "const"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:00:19 --> syntax error, unexpected identifier "SELECT", expecting "function" or "const"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:00:50 --> syntax error, unexpected identifier "SELECT", expecting "function" or "const"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:01:12 --> syntax error, unexpected identifier "SELECT", expecting "function" or "const"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:01:12 --> syntax error, unexpected identifier "SELECT", expecting "function" or "const"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:01:20 --> syntax error, unexpected identifier "SELECT", expecting "function" or "const"
+#0 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\kinesport\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Hora...')
+#2 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Hora...')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\API\Horarios->__construct()
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:01:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(32): App\Models\HorarioModel->listarhoras('25/24/2110')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Horarios->listahorarios()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Horarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-08 15:01:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(32): App\Models\HorarioModel->listarhoras('25/24/2110')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Horarios->listahorarios()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Horarios))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-08 15:03:03 --> preg_replace(): Compilation failed: unmatched closing parenthesis at offset 0
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace():...', 'D:\\xampp\\htdocs...', 676)
+#1 D:\xampp\htdocs\kinesport\system\Database\BaseBuilder.php(676): preg_replace('/)ahcef.avreser...', '', ')ahcef.avreser ...', 1)
+#2 D:\xampp\htdocs\kinesport\system\Database\BaseBuilder.php(620): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', Array, '25/24/2110', 'AND ', true)
+#3 D:\xampp\htdocs\kinesport\app\Models\HorarioModel.php(31): CodeIgniter\Database\BaseBuilder->where('idhorario not i...', '25/24/2110')
+#4 D:\xampp\htdocs\kinesport\app\Controllers\API\Horarios.php(32): App\Models\HorarioModel->listarhoras('25/24/2110')
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Horarios->listahorarios()
+#6 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Horarios))
+#7 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-08 15:20:47 --> Cannot add or update a child row: a foreign key constraint fails (`kinesport`.`reserva`, CONSTRAINT `hroasas` FOREIGN KEY (`Hora`) REFERENCES `horario` (`IdHorario`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+ERROR - 2022-04-08 15:20:51 --> Cannot add or update a child row: a foreign key constraint fails (`kinesport`.`reserva`, CONSTRAINT `hroasas` FOREIGN KEY (`Hora`) REFERENCES `horario` (`IdHorario`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+ERROR - 2022-04-08 15:21:01 --> Cannot add or update a child row: a foreign key constraint fails (`kinesport`.`reserva`, CONSTRAINT `hroasas` FOREIGN KEY (`Hora`) REFERENCES `horario` (`IdHorario`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+ERROR - 2022-04-08 15:21:02 --> Cannot add or update a child row: a foreign key constraint fails (`kinesport`.`reserva`, CONSTRAINT `hroasas` FOREIGN KEY (`Hora`) REFERENCES `horario` (`IdHorario`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+ERROR - 2022-04-08 15:22:51 --> Cannot add or update a child row: a foreign key constraint fails (`kinesport`.`reserva`, CONSTRAINT `hroasas` FOREIGN KEY (`Hora`) REFERENCES `horario` (`IdHorario`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+ERROR - 2022-04-08 15:23:06 --> Cannot add or update a child row: a foreign key constraint fails (`kinesport`.`reserva`, CONSTRAINT `hroasas` FOREIGN KEY (`Hora`) REFERENCES `horario` (`IdHorario`) ON DELETE NO ACTION ON UPDATE NO ACTION)

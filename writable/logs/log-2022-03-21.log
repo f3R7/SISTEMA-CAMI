@@ -1,0 +1,147 @@
+ERROR - 2022-03-21 11:50:28 --> Unknown column 'historial_clinico.Motivo' in 'field list'
+CRITICAL - 2022-03-21 11:50:28 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\HistorialesClinicos.php(115): App\Models\Historial_ClinicoModel->detallehistorial('23')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->detallehistorial('23')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-21 11:50:51 --> Unknown column 'historial_clinico.Motivo' in 'field list'
+CRITICAL - 2022-03-21 11:50:51 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\HistorialesClinicos.php(115): App\Models\Historial_ClinicoModel->detallehistorial('23')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->detallehistorial('23')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-21 12:03:58 --> Unknown column 'historial_clinico.IdPersona' in 'where clause'
+CRITICAL - 2022-03-21 12:03:58 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\HistorialesClinicos.php(105): App\Models\Historial_ClinicoModel->pacientehistorial('127')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('127')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-21 12:30:24 --> Cannot add or update a child row: a foreign key constraint fails (`kinesport`.`historial_clinico`, CONSTRAINT `historial_clinico_ibfk_2` FOREIGN KEY (`IdMedico`) REFERENCES `persona` (`IdPersona`))
+ERROR - 2022-03-21 12:34:15 --> Cannot add or update a child row: a foreign key constraint fails (`kinesport`.`historial_clinico`, CONSTRAINT `historial_clinico_ibfk_2` FOREIGN KEY (`IdMedico`) REFERENCES `persona` (`IdPersona`))
+ERROR - 2022-03-21 12:41:04 --> Cannot add or update a child row: a foreign key constraint fails (`kinesport`.`historial_clinico`, CONSTRAINT `historial_clinico_ibfk_2` FOREIGN KEY (`IdMedico`) REFERENCES `persona` (`IdPersona`))
+ERROR - 2022-03-21 12:58:24 --> Unknown column 'historial_clinico.IdPersona' in 'on clause'
+CRITICAL - 2022-03-21 12:58:24 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\HistorialesClinicos.php(105): App\Models\Historial_ClinicoModel->pacientehistorial('127')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('127')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-21 12:58:30 --> Unknown column 'historial_clinico.IdPersona' in 'on clause'
+CRITICAL - 2022-03-21 12:58:30 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\HistorialesClinicos.php(105): App\Models\Historial_ClinicoModel->pacientehistorial('127')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('127')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-21 12:59:09 --> Unknown column 'historial_clinico.IdPersona' in 'where clause'
+CRITICAL - 2022-03-21 12:59:09 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\HistorialesClinicos.php(105): App\Models\Historial_ClinicoModel->pacientehistorial('127')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('127')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-21 12:59:23 --> Unknown column 'historial_clinico.IdPersona' in 'where clause'
+CRITICAL - 2022-03-21 12:59:23 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\HistorialesClinicos.php(105): App\Models\Historial_ClinicoModel->pacientehistorial('127')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('127')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-21 13:00:45 --> Unknown column 'historial_clinico.IdPersona' in 'on clause'
+CRITICAL - 2022-03-21 13:00:45 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\HistorialesClinicos.php(105): App\Models\Historial_ClinicoModel->pacientehistorial('127')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('127')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-21 13:00:49 --> Unknown column 'historial_clinico.IdPersona' in 'on clause'
+CRITICAL - 2022-03-21 13:00:49 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\HistorialesClinicos.php(105): App\Models\Historial_ClinicoModel->pacientehistorial('127')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('127')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-21 13:01:13 --> Unknown column 'historial_clinico.IdPersona' in 'on clause'
+CRITICAL - 2022-03-21 13:01:13 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\HistorialesClinicos.php(105): App\Models\Historial_ClinicoModel->pacientehistorial('127')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('127')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-21 13:06:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:ficha_kinesica` = persona.IdPersona:' at line 8
+CRITICAL - 2022-03-21 13:06:47 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\HistorialesClinicos.php(105): App\Models\Historial_ClinicoModel->pacientehistorial('127')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('127')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-21 13:07:43 --> Unknown column 'historial_clinico.IdPersona' in 'on clause'
+CRITICAL - 2022-03-21 13:07:43 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\HistorialesClinicos.php(105): App\Models\Historial_ClinicoModel->pacientehistorial('127')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('127')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-21 13:09:36 --> Unknown column 'historial_clinico.IdPersona' in 'where clause'
+CRITICAL - 2022-03-21 13:09:36 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\HistorialesClinicos.php(105): App\Models\Historial_ClinicoModel->pacientehistorial('127')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('127')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-21 13:13:41 --> Unknown column 'persona.IdPersona' in 'where clause'
+CRITICAL - 2022-03-21 13:13:41 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\HistorialesClinicos.php(105): App\Models\Historial_ClinicoModel->pacientehistorial('127')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('127')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-21 13:15:11 --> Unknown column 'persona.IdPersona' in 'where clause'
+CRITICAL - 2022-03-21 13:15:11 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\HistorialesClinicos.php(105): App\Models\Historial_ClinicoModel->pacientehistorial('127')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('127')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-21 13:15:33 --> Unknown column 'historial_clinico.IdPersona' in 'on clause'
+CRITICAL - 2022-03-21 13:15:33 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\HistorialesClinicos.php(115): App\Models\Historial_ClinicoModel->detallehistorial('30')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->detallehistorial('30')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-21 13:18:30 --> Unknown column 'historial_clinico.IdPersona' in 'on clause'
+CRITICAL - 2022-03-21 13:18:30 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\HistorialesClinicos.php(105): App\Models\Historial_ClinicoModel->pacientehistorial('127')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->pacientehistorial('127')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-21 13:20:42 --> Unknown column 'historial_clinico.IdPersona' in 'on clause'
+CRITICAL - 2022-03-21 13:20:42 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\HistorialesClinicos.php(115): App\Models\Historial_ClinicoModel->detallehistorial('30')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\HistorialesClinicos->detallehistorial('30')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\HistorialesClinicos))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,266 @@
+CRITICAL - 2022-08-05 22:15:02 --> Undefined property: stdClass::$IdProducto
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 45)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->create()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:18:53 --> Undefined variable $num
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 37)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->create()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:19:10 --> Undefined property: stdClass::$IdProducto
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 37)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->create()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:19:57 --> Undefined property: stdClass::$IdProducto
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 37)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->create()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:20:18 --> Undefined property: stdClass::$IdProducto
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 37)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->create()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:21:19 --> Undefined property: stdClass::$IdProducto
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 37)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->create()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:21:20 --> Undefined property: stdClass::$IdProducto
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 37)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->create()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:22:03 --> Undefined property: stdClass::$IdProducto
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 37)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->create()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:22:22 --> Undefined property: stdClass::$IdProducto
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 37)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->create()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:22:22 --> Undefined property: stdClass::$IdProducto
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 37)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->create()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:22:24 --> Undefined property: stdClass::$IdProducto
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 37)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->create()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:22:24 --> Undefined property: stdClass::$IdProducto
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 37)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->create()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:22:25 --> Undefined property: stdClass::$IdProducto
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 37)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->create()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:22:47 --> Undefined property: stdClass::$IdProducto
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 37)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->create()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:25:06 --> Undefined property: stdClass::$IdProducto
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 37)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->create()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:25:22 --> Undefined property: stdClass::$IdProducto
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 35)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->create()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:25:46 --> Undefined property: stdClass::$IdProducto
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 38)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->create()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:48:22 --> Undefined variable $producto
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 40)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->create()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:48:46 --> Undefined variable $id
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 41)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->create()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 23:05:37 --> Undefined variable $items
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 34)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->createdet()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 23:05:48 --> Undefined variable $items
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 34)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->createdet()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 23:08:17 --> Undefined variable $items
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 34)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->createdet()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 23:08:45 --> Undefined variable $items
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 34)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->createdet()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 23:09:03 --> Undefined variable $items
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 34)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->createdet()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 23:09:14 --> Undefined variable $items
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 34)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->createdet()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 23:14:09 --> Undefined variable $items
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 34)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->createdet()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 23:14:10 --> Undefined variable $items
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 34)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->createdet()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 23:17:17 --> Class "App\Controllers\API\IngresoModel" not found
+#0 D:\xampp\htdocs\cami\system\CodeIgniter.php(801): App\Controllers\API\DetalleIngreso->__construct()
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-05 23:17:18 --> Class "App\Controllers\API\IngresoModel" not found
+#0 D:\xampp\htdocs\cami\system\CodeIgniter.php(801): App\Controllers\API\DetalleIngreso->__construct()
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-05 23:17:44 --> Class "App\Controllers\API\IngresoModel" not found
+#0 D:\xampp\htdocs\cami\system\CodeIgniter.php(801): App\Controllers\API\DetalleIngreso->__construct()
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-05 23:18:01 --> Class "App\Controllers\API\IngresoModel" not found
+#0 D:\xampp\htdocs\cami\system\CodeIgniter.php(801): App\Controllers\API\DetalleIngreso->__construct()
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-05 23:18:03 --> Class "App\Controllers\API\IngresoModel" not found
+#0 D:\xampp\htdocs\cami\system\CodeIgniter.php(801): App\Controllers\API\DetalleIngreso->__construct()
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-05 23:20:11 --> Undefined variable $items
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 34)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->createdet()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 23:21:13 --> Undefined variable $items
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 34)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->createdet()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 23:21:38 --> Undefined variable $items
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 34)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->createdet()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 23:24:48 --> Undefined variable $items
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 34)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->createdet()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 23:25:10 --> Undefined variable $items
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Ingresos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 34)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->createdet()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 23:27:41 --> Attempt to assign property "id" on array
+#0 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->createdet()
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-05 23:28:40 --> Attempt to assign property "id" on array
+#0 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Ingresos->createdet()
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Ingresos))
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

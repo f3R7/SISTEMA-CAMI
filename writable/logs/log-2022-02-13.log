@@ -1,0 +1,28 @@
+CRITICAL - 2022-02-13 00:21:35 --> Undefined property: App\Controllers\Auth::$model
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp4\\htdoc...', 57)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->create()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-13 00:22:38 --> Undefined property: App\Controllers\Auth::$model
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp4\\htdoc...', 57)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->create()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-13 00:22:58 --> Undefined property: App\Controllers\Auth::$model
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp4\\htdoc...', 57)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->create()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-13 00:28:15 --> Undefined property: App\Controllers\Auth::$model
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp4\\htdoc...', 57)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->create()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

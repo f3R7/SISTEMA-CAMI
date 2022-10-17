@@ -1,0 +1,169 @@
+CRITICAL - 2022-01-14 10:41:55 --> Call to undefined method App\Controllers\Auth::setModel()
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\Auth->__construct()
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-14 10:42:28 --> Call to undefined method App\Controllers\Auth::setModel()
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\Auth->__construct()
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-14 10:43:44 --> Call to undefined method App\Controllers\Auth::setModel()
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\Auth->__construct()
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-14 10:45:24 --> Undefined property: App\Controllers\Auth::$model
+#0 D:\xampp\htdocs\kinesport\app\Controllers\Auth.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 43)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 10:45:48 --> Call to undefined method App\Controllers\Auth::setModel()
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\Auth->__construct()
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-14 10:45:49 --> Call to undefined method App\Controllers\Auth::setModel()
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\Auth->__construct()
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-14 10:45:52 --> Call to undefined method App\Controllers\Auth::setModel()
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\Auth->__construct()
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-14 10:45:53 --> Call to undefined method App\Controllers\Auth::setModel()
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(801): App\Controllers\Auth->__construct()
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-14 10:46:37 --> Call to undefined method App\Controllers\Auth::setModel()
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->create()
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-14 10:47:52 --> Call to undefined method App\Controllers\Auth::setModel()
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->create()
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-14 10:47:53 --> Call to undefined method App\Controllers\Auth::setModel()
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->create()
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-14 10:49:29 --> Call to undefined method App\Controllers\Auth::setModel()
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->create()
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-14 10:49:31 --> Call to undefined method App\Controllers\Auth::setModel()
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->create()
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-14 10:50:24 --> Undefined property: App\Controllers\Auth::$model
+#0 D:\xampp\htdocs\kinesport\app\Controllers\Auth.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 44)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 10:50:26 --> Undefined property: App\Controllers\Auth::$model
+#0 D:\xampp\htdocs\kinesport\app\Controllers\Auth.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 44)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 10:50:58 --> Undefined property: App\Controllers\Auth::$model
+#0 D:\xampp\htdocs\kinesport\app\Controllers\Auth.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 44)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 10:57:34 --> Undefined property: stdClass::$Clave
+#0 D:\xampp\htdocs\kinesport\app\Controllers\Auth.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 58)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->percreate()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 10:59:39 --> Undefined variable $usu
+#0 D:\xampp\htdocs\kinesport\app\Controllers\Auth.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 58)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->percreate()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 10:59:41 --> Undefined variable $usu
+#0 D:\xampp\htdocs\kinesport\app\Controllers\Auth.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 58)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->percreate()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-14 11:25:31 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Solicitudes->paciente('11')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Solicitudes))
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-14 11:26:19 --> Call to undefined function App\Controllers\API\validateAccess()
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Solicitudes->paciente('10')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Solicitudes))
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-14 11:41:22 --> Undefined variable $authHeader
+#0 D:\xampp\htdocs\kinesport\app\Helpers\acces_rol_helper.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 31)
+#1 D:\xampp\htdocs\kinesport\app\Controllers\API\Solicitudes.php(62): retid()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Solicitudes->paciente('10')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Solicitudes))
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-14 11:43:31 --> Undefined property: stdClass::$id
+#0 D:\xampp\htdocs\kinesport\app\Helpers\acces_rol_helper.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 35)
+#1 D:\xampp\htdocs\kinesport\app\Controllers\API\Solicitudes.php(62): retid('Bearer eyJ0eXAi...')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Solicitudes->paciente('10')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Solicitudes))
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-14 11:43:34 --> Undefined property: stdClass::$id
+#0 D:\xampp\htdocs\kinesport\app\Helpers\acces_rol_helper.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 35)
+#1 D:\xampp\htdocs\kinesport\app\Controllers\API\Solicitudes.php(62): retid('Bearer eyJ0eXAi...')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Solicitudes->paciente('10')
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Solicitudes))
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-14 12:43:12 --> Call to undefined function App\Controllers\API\retid()
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->updatemedico('8')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-14 12:51:51 --> Call to undefined function App\Controllers\API\retidper()
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Personas->updatemedico('8')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Personas))
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

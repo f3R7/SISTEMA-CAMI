@@ -1,0 +1,76 @@
+CRITICAL - 2022-01-11 00:33:23 --> syntax error, unexpected token ";", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('api/solicitudes')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/solicitudes')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-11 00:33:28 --> syntax error, unexpected token ";", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('api/solicitudes')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/solicitudes')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-11 00:33:30 --> syntax error, unexpected token ";", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('api/solicitudes')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/solicitudes')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-11 00:33:48 --> syntax error, unexpected token ";", expecting ")"
+#0 D:\xampp\htdocs\kinesport\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('api/solicitudes')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/solicitudes')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-11 00:53:55 --> Object of class App\Models\UsuarioModel could not be converted to string
+#0 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Solicitudes->paciente('11')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Solicitudes))
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-11 00:56:02 --> Not unique table/alias: 'solicitud'
+CRITICAL - 2022-01-11 00:56:02 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Solicitudes.php(60): App\Models\SolicitudModel->solicitudpaciente('11')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Solicitudes->paciente('11')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Solicitudes))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-11 00:56:18 --> Not unique table/alias: 'solicitud'
+CRITICAL - 2022-01-11 00:56:18 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Solicitudes.php(60): App\Models\SolicitudModel->solicitudpaciente('11')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Solicitudes->paciente('11')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Solicitudes))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-11 00:58:51 --> Not unique table/alias: 'solicitud'
+CRITICAL - 2022-01-11 00:58:51 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Solicitudes.php(60): App\Models\SolicitudModel->solicitudpaciente('11')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Solicitudes->paciente('11')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Solicitudes))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-11 00:59:05 --> Not unique table/alias: 'solicitud'
+CRITICAL - 2022-01-11 00:59:05 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\kinesport\app\Controllers\API\Solicitudes.php(60): App\Models\SolicitudModel->solicitudpaciente('11')
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Solicitudes->paciente('11')
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Solicitudes))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-11 01:12:41 --> There is no data to insert.
+#0 D:\xampp\htdocs\kinesport\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 D:\xampp\htdocs\kinesport\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(NULL, 'insert')
+#2 D:\xampp\htdocs\kinesport\system\Model.php(620): CodeIgniter\BaseModel->insert(NULL, true)
+#3 D:\xampp\htdocs\kinesport\app\Controllers\API\Solicitudes.php(24): CodeIgniter\Model->insert(NULL)
+#4 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\API\Solicitudes->create()
+#5 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Solicitudes))
+#6 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\kinesport\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

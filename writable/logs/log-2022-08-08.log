@@ -1,0 +1,24 @@
+CRITICAL - 2022-08-08 23:26:55 --> Class "App\Models\ProductosModel" not found
+#0 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\Auth->listproductos()
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-08 23:27:39 --> Class "App\Models\ProductosModel" not found
+#0 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\Auth->listproductos()
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-08 23:29:54 --> Class "App\Models\ProductosModel" not found
+#0 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\Auth->listproductos()
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-08 23:30:02 --> Class "App\Models\ProductosModel" not found
+#0 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\Auth->listproductos()
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

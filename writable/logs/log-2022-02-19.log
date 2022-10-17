@@ -1,0 +1,200 @@
+CRITICAL - 2022-02-19 06:30:06 --> Undefined variable $data
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp4\\htdoc...', 109)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->enviaremail()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-19 06:43:35 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: Error no recuperable durante una b�squeda en base de datos. 
+ERROR - 2022-02-19 06:50:03 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+CRITICAL - 2022-02-19 06:59:22 --> Undefined variable $data
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp4\\htdoc...', 109)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->enviaremail()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-19 06:59:24 --> Undefined variable $data
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Auth.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp4\\htdoc...', 109)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->enviaremail()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-19 07:40:12 --> Unknown column 'Estado' in 'field list'
+ERROR - 2022-02-19 07:41:56 --> Unknown column 'Estado' in 'field list'
+ERROR - 2022-02-19 07:42:32 --> Unknown column 'Estado' in 'field list'
+ERROR - 2022-02-19 07:43:54 --> Unknown column 'Estado' in 'field list'
+ERROR - 2022-02-19 07:44:26 --> Unknown column 'Estado' in 'field list'
+ERROR - 2022-02-19 07:44:59 --> Unknown column 'Estado' in 'field list'
+ERROR - 2022-02-19 07:45:31 --> Unknown column 'Estado' in 'field list'
+ERROR - 2022-02-19 07:46:29 --> Unknown column 'Estado' in 'field list'
+ERROR - 2022-02-19 07:46:37 --> Unknown column 'Estado' in 'field list'
+ERROR - 2022-02-19 07:46:56 --> Unknown column 'Estado' in 'field list'
+ERROR - 2022-02-19 07:49:00 --> Unknown column 'Estado' in 'field list'
+CRITICAL - 2022-02-19 07:53:47 --> Wrong number of segments
+#0 C:\xampp4\htdocs\kinesport\app\Helpers\acces_rol_helper.php(52): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'llave_secreta', Array)
+#1 C:\xampp4\htdocs\kinesport\app\Controllers\Restauraciones.php(80): returnid('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Restauraciones->update()
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restauraciones))
+#4 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-19 07:54:07 --> Wrong number of segments
+#0 C:\xampp4\htdocs\kinesport\app\Helpers\acces_rol_helper.php(52): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'llave_secreta', Array)
+#1 C:\xampp4\htdocs\kinesport\app\Controllers\Restauraciones.php(80): returnid('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Restauraciones->update()
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restauraciones))
+#4 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-19 08:02:59 --> Undefined variable $enviar
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Restauraciones.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp4\\htdoc...', 42)
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Restauraciones->create()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restauraciones))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-19 08:03:29 --> strpos(): Argument #1 ($haystack) must be of type string, CodeIgniter\Email\Email given
+#0 C:\xampp4\htdocs\kinesport\system\Email\Email.php(728): strpos(Object(CodeIgniter\Email\Email), ',')
+#1 C:\xampp4\htdocs\kinesport\system\Email\Email.php(541): CodeIgniter\Email\Email->stringToArray(Object(CodeIgniter\Email\Email))
+#2 C:\xampp4\htdocs\kinesport\app\Controllers\Restauraciones.php(76): CodeIgniter\Email\Email->setTo(Object(CodeIgniter\Email\Email))
+#3 C:\xampp4\htdocs\kinesport\app\Controllers\Restauraciones.php(42): App\Controllers\Restauraciones->enviaremail(Object(CodeIgniter\Email\Email))
+#4 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Restauraciones->create()
+#5 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restauraciones))
+#6 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-19 08:10:21 --> strpos(): Argument #1 ($haystack) must be of type string, CodeIgniter\Email\Email given
+#0 C:\xampp4\htdocs\kinesport\system\Email\Email.php(728): strpos(Object(CodeIgniter\Email\Email), ',')
+#1 C:\xampp4\htdocs\kinesport\system\Email\Email.php(541): CodeIgniter\Email\Email->stringToArray(Object(CodeIgniter\Email\Email))
+#2 C:\xampp4\htdocs\kinesport\app\Models\RestauracionModel.php(53): CodeIgniter\Email\Email->setTo(Object(CodeIgniter\Email\Email))
+#3 C:\xampp4\htdocs\kinesport\app\Controllers\Restauraciones.php(41): App\Models\RestauracionModel->enviaremail(Object(CodeIgniter\Email\Email))
+#4 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Restauraciones->create()
+#5 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restauraciones))
+#6 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-19 08:12:19 --> strpos(): Argument #1 ($haystack) must be of type string, CodeIgniter\Email\Email given
+#0 C:\xampp4\htdocs\kinesport\system\Email\Email.php(728): strpos(Object(CodeIgniter\Email\Email), ',')
+#1 C:\xampp4\htdocs\kinesport\system\Email\Email.php(541): CodeIgniter\Email\Email->stringToArray(Object(CodeIgniter\Email\Email))
+#2 C:\xampp4\htdocs\kinesport\app\Models\RestauracionModel.php(53): CodeIgniter\Email\Email->setTo(Object(CodeIgniter\Email\Email))
+#3 C:\xampp4\htdocs\kinesport\app\Controllers\Restauraciones.php(41): App\Models\RestauracionModel->enviaremail(Object(CodeIgniter\Email\Email))
+#4 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Restauraciones->create()
+#5 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restauraciones))
+#6 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-19 08:12:57 --> strpos(): Argument #1 ($haystack) must be of type string, CodeIgniter\Email\Email given
+#0 C:\xampp4\htdocs\kinesport\system\Email\Email.php(728): strpos(Object(CodeIgniter\Email\Email), ',')
+#1 C:\xampp4\htdocs\kinesport\system\Email\Email.php(541): CodeIgniter\Email\Email->stringToArray(Object(CodeIgniter\Email\Email))
+#2 C:\xampp4\htdocs\kinesport\app\Models\RestauracionModel.php(53): CodeIgniter\Email\Email->setTo(Object(CodeIgniter\Email\Email))
+#3 C:\xampp4\htdocs\kinesport\app\Controllers\Restauraciones.php(41): App\Models\RestauracionModel->enviaremail(Object(CodeIgniter\Email\Email))
+#4 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Restauraciones->create()
+#5 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restauraciones))
+#6 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-19 08:13:58 --> Array to string conversion
+#0 C:\xampp4\htdocs\kinesport\app\Models\RestauracionModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp4\\htdoc...', 49)
+#1 C:\xampp4\htdocs\kinesport\app\Controllers\Restauraciones.php(41): App\Models\RestauracionModel->enviaremail(Array)
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Restauraciones->create()
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restauraciones))
+#4 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-19 08:15:20 --> strpos(): Argument #1 ($haystack) must be of type string, CodeIgniter\Email\Email given
+#0 C:\xampp4\htdocs\kinesport\system\Email\Email.php(728): strpos(Object(CodeIgniter\Email\Email), ',')
+#1 C:\xampp4\htdocs\kinesport\system\Email\Email.php(541): CodeIgniter\Email\Email->stringToArray(Object(CodeIgniter\Email\Email))
+#2 C:\xampp4\htdocs\kinesport\app\Models\RestauracionModel.php(53): CodeIgniter\Email\Email->setTo(Object(CodeIgniter\Email\Email))
+#3 C:\xampp4\htdocs\kinesport\app\Controllers\Restauraciones.php(41): App\Models\RestauracionModel->enviaremail(Object(CodeIgniter\Email\Email))
+#4 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Restauraciones->create()
+#5 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restauraciones))
+#6 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-19 08:16:26 --> Object of class stdClass could not be converted to string
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Restauraciones.php(41): App\Models\RestauracionModel->enviaremail(Object(stdClass))
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Restauraciones->create()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restauraciones))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-19 08:16:28 --> Object of class stdClass could not be converted to string
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Restauraciones.php(41): App\Models\RestauracionModel->enviaremail(Object(stdClass))
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Restauraciones->create()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restauraciones))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-19 08:16:36 --> Object of class stdClass could not be converted to string
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Restauraciones.php(41): App\Models\RestauracionModel->enviaremail(Object(stdClass))
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Restauraciones->create()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restauraciones))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-19 08:16:50 --> Object of class stdClass could not be converted to string
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Restauraciones.php(41): App\Models\RestauracionModel->enviaremail(Object(stdClass))
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Restauraciones->create()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restauraciones))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-19 08:18:18 --> Object of class CodeIgniter\Email\Email could not be converted to string
+#0 C:\xampp4\htdocs\kinesport\app\Controllers\Restauraciones.php(41): App\Models\RestauracionModel->enviaremail(Object(CodeIgniter\Email\Email))
+#1 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Restauraciones->create()
+#2 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restauraciones))
+#3 C:\xampp4\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp4\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-19 08:15:01 --> Undefined property: App\Controllers\Auth::$model
+#0 D:\xampp\htdocs\kinesport\app\Controllers\Auth.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 66)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-19 08:15:04 --> Undefined property: App\Controllers\Auth::$model
+#0 D:\xampp\htdocs\kinesport\app\Controllers\Auth.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 66)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-19 08:15:06 --> Undefined property: App\Controllers\Auth::$model
+#0 D:\xampp\htdocs\kinesport\app\Controllers\Auth.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 66)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-19 08:15:06 --> Undefined property: App\Controllers\Auth::$model
+#0 D:\xampp\htdocs\kinesport\app\Controllers\Auth.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 66)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-19 08:15:08 --> Undefined property: App\Controllers\Auth::$model
+#0 D:\xampp\htdocs\kinesport\app\Controllers\Auth.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 66)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-19 08:15:12 --> Undefined property: App\Controllers\Auth::$model
+#0 D:\xampp\htdocs\kinesport\app\Controllers\Auth.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 66)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-19 08:15:12 --> Undefined property: App\Controllers\Auth::$model
+#0 D:\xampp\htdocs\kinesport\app\Controllers\Auth.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 66)
+#1 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(824): App\Controllers\Auth->create()
+#2 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\xampp\htdocs\kinesport\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\kinesport\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

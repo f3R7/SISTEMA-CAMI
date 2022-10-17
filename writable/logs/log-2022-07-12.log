@@ -1,0 +1,356 @@
+ERROR - 2022-07-12 19:29:49 --> Unknown column 'persona.FechaNac' in 'field list'
+CRITICAL - 2022-07-12 19:29:49 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(208): App\Models\UsuarioModel->listperfil('1')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-12 19:31:22 --> Unknown column 'persona.FechaNac' in 'field list'
+CRITICAL - 2022-07-12 19:31:22 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(208): App\Models\UsuarioModel->listperfil('1')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-12 19:31:24 --> Unknown column 'persona.FechaNac' in 'field list'
+CRITICAL - 2022-07-12 19:31:24 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(208): App\Models\UsuarioModel->listperfil('1')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-12 19:31:25 --> Unknown column 'persona.FechaNac' in 'field list'
+CRITICAL - 2022-07-12 19:31:25 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(208): App\Models\UsuarioModel->listperfil('1')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-12 19:31:51 --> Unknown column 'persona.FechaNac' in 'field list'
+CRITICAL - 2022-07-12 19:31:51 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(208): App\Models\UsuarioModel->listperfil('1')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-12 19:32:14 --> Unknown column 'persona.FechaNac' in 'field list'
+CRITICAL - 2022-07-12 19:32:14 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(208): App\Models\UsuarioModel->listperfil('1')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-12 19:32:15 --> Unknown column 'persona.FechaNac' in 'field list'
+CRITICAL - 2022-07-12 19:32:15 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(208): App\Models\UsuarioModel->listperfil('1')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-12 19:32:16 --> Unknown column 'persona.FechaNac' in 'field list'
+CRITICAL - 2022-07-12 19:32:16 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(208): App\Models\UsuarioModel->listperfil('1')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-12 19:33:08 --> Unknown column 'persona.FechaNac' in 'field list'
+CRITICAL - 2022-07-12 19:33:08 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(208): App\Models\UsuarioModel->listperfil('1')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-12 19:33:17 --> Unknown column 'persona.FechaNac' in 'field list'
+CRITICAL - 2022-07-12 19:33:17 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(208): App\Models\UsuarioModel->listperfil('1')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-12 19:33:47 --> Unknown column 'persona.FechaNac' in 'field list'
+CRITICAL - 2022-07-12 19:33:47 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(208): App\Models\UsuarioModel->listperfil('1')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-12 19:35:06 --> Unknown column 'persona.FechaNac' in 'field list'
+CRITICAL - 2022-07-12 19:35:06 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(208): App\Models\UsuarioModel->listperfil('1')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 21:40:03 --> Class "App\Models\RolModel" not found
+#0 D:\xampp\htdocs\cami\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/roles', 'before')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-12 21:40:06 --> Class "App\Models\RolModel" not found
+#0 D:\xampp\htdocs\cami\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/roles', 'before')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-12 21:41:00 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, data given
+#0 D:\xampp\htdocs\cami\system\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('data')
+#1 D:\xampp\htdocs\cami\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('data')
+#2 D:\xampp\htdocs\cami\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('data')
+#3 D:\xampp\htdocs\cami\system\Database\BaseResult.php(379): CodeIgniter\Database\BaseResult->getResult('data')
+#4 D:\xampp\htdocs\cami\system\Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow('data')
+#5 D:\xampp\htdocs\cami\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 D:\xampp\htdocs\cami\app\Filters\AuthFilter.php(32): CodeIgniter\BaseModel->find('1')
+#7 D:\xampp\htdocs\cami\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 D:\xampp\htdocs\cami\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/roles', 'before')
+#9 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-12 21:41:01 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, data given
+#0 D:\xampp\htdocs\cami\system\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('data')
+#1 D:\xampp\htdocs\cami\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('data')
+#2 D:\xampp\htdocs\cami\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('data')
+#3 D:\xampp\htdocs\cami\system\Database\BaseResult.php(379): CodeIgniter\Database\BaseResult->getResult('data')
+#4 D:\xampp\htdocs\cami\system\Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow('data')
+#5 D:\xampp\htdocs\cami\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 D:\xampp\htdocs\cami\app\Filters\AuthFilter.php(32): CodeIgniter\BaseModel->find('1')
+#7 D:\xampp\htdocs\cami\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 D:\xampp\htdocs\cami\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/roles', 'before')
+#9 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-12 21:44:28 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, string given
+#0 D:\xampp\htdocs\cami\system\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('string')
+#1 D:\xampp\htdocs\cami\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('string')
+#2 D:\xampp\htdocs\cami\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('string')
+#3 D:\xampp\htdocs\cami\system\Database\BaseResult.php(379): CodeIgniter\Database\BaseResult->getResult('string')
+#4 D:\xampp\htdocs\cami\system\Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow('string')
+#5 D:\xampp\htdocs\cami\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 D:\xampp\htdocs\cami\app\Filters\AuthFilter.php(32): CodeIgniter\BaseModel->find('1')
+#7 D:\xampp\htdocs\cami\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 D:\xampp\htdocs\cami\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/roles', 'before')
+#9 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-12 21:44:38 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name,  given
+#0 D:\xampp\htdocs\cami\system\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('')
+#1 D:\xampp\htdocs\cami\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('')
+#2 D:\xampp\htdocs\cami\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('')
+#3 D:\xampp\htdocs\cami\system\Database\BaseResult.php(379): CodeIgniter\Database\BaseResult->getResult('')
+#4 D:\xampp\htdocs\cami\system\Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow('')
+#5 D:\xampp\htdocs\cami\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 D:\xampp\htdocs\cami\app\Filters\AuthFilter.php(32): CodeIgniter\BaseModel->find('1')
+#7 D:\xampp\htdocs\cami\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#8 D:\xampp\htdocs\cami\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('api/roles', 'before')
+#9 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-12 21:55:58 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 21:56:00 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 21:56:07 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 21:56:41 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 21:56:45 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 21:57:02 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 21:57:48 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 21:57:52 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 21:57:59 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 21:58:17 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 21:58:28 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 21:58:32 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 22:03:33 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 22:03:39 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 22:05:12 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 22:06:30 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 22:06:58 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 22:07:06 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 22:07:22 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 22:07:27 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 22:07:59 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 22:08:09 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 22:08:31 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 22:08:42 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 22:08:49 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 22:10:11 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 22:10:13 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-12 22:10:26 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(202): validateAccess(Array, 'Bearer eyJ0eXAi...')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->editperfil('1')
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

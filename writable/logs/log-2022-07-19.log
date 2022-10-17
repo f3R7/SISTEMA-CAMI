@@ -1,0 +1,150 @@
+CRITICAL - 2022-07-19 18:01:57 --> Attempt to assign property "id" on null
+#0 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Marcas->desactivar('1')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Marcas))
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-19 18:01:58 --> Attempt to assign property "id" on null
+#0 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Marcas->desactivar('1')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Marcas))
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-19 18:03:11 --> Attempt to assign property "id" on null
+#0 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Marcas->desactivar('1')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Marcas))
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-19 18:03:14 --> Attempt to assign property "id" on null
+#0 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Marcas->desactivar('1')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Marcas))
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-19 18:03:36 --> Attempt to assign property "id" on null
+#0 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Marcas->desactivar('1')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Marcas))
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-19 18:03:38 --> Attempt to assign property "id" on null
+#0 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Marcas->desactivar('1')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Marcas))
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-19 18:04:59 --> Attempt to assign property "id" on null
+#0 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Marcas->desactivar('1')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Marcas))
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-19 18:05:03 --> Attempt to assign property "id" on null
+#0 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Marcas->desactivar('1')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Marcas))
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-19 18:05:04 --> Attempt to assign property "id" on null
+#0 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Marcas->desactivar('1')
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Marcas))
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-19 22:53:04 --> id_valid_categoria is not a valid rule.
+#0 D:\xampp\htdocs\cami\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('id_valid_catego...')
+#1 D:\xampp\htdocs\cami\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('IdCategoria', 'IdCategoria', '2', Array, Array)
+#2 D:\xampp\htdocs\cami\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 D:\xampp\htdocs\cami\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 D:\xampp\htdocs\cami\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\xampp\htdocs\cami\app\Controllers\API\Productos.php(32): CodeIgniter\Model->insert(Object(stdClass))
+#6 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Productos->create()
+#7 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Productos))
+#8 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-19 22:54:31 --> id_valid_categoria is not a valid rule.
+#0 D:\xampp\htdocs\cami\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('id_valid_catego...')
+#1 D:\xampp\htdocs\cami\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('IdCategoria', 'IdCategoria', '2', Array, Array)
+#2 D:\xampp\htdocs\cami\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 D:\xampp\htdocs\cami\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 D:\xampp\htdocs\cami\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\xampp\htdocs\cami\app\Controllers\API\Productos.php(32): CodeIgniter\Model->insert(Object(stdClass))
+#6 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Productos->create()
+#7 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Productos))
+#8 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-19 22:56:37 --> id_valid_categoria is not a valid rule.
+#0 D:\xampp\htdocs\cami\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('id_valid_catego...')
+#1 D:\xampp\htdocs\cami\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('IdCategoria', 'IdCategoria', '2', Array, Array)
+#2 D:\xampp\htdocs\cami\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 D:\xampp\htdocs\cami\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 D:\xampp\htdocs\cami\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\xampp\htdocs\cami\app\Controllers\API\Productos.php(32): CodeIgniter\Model->insert(Object(stdClass))
+#6 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Productos->create()
+#7 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Productos))
+#8 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-19 22:56:43 --> id_valid_categoria is not a valid rule.
+#0 D:\xampp\htdocs\cami\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('id_valid_catego...')
+#1 D:\xampp\htdocs\cami\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('IdCategoria', 'IdCategoria', '2', Array, Array)
+#2 D:\xampp\htdocs\cami\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 D:\xampp\htdocs\cami\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 D:\xampp\htdocs\cami\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\xampp\htdocs\cami\app\Controllers\API\Productos.php(32): CodeIgniter\Model->insert(Object(stdClass))
+#6 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Productos->create()
+#7 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Productos))
+#8 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-19 22:57:14 --> id_valid_categoria is not a valid rule.
+#0 D:\xampp\htdocs\cami\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('id_valid_catego...')
+#1 D:\xampp\htdocs\cami\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('IdCategoria', 'IdCategoria', '2', Array, Array)
+#2 D:\xampp\htdocs\cami\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 D:\xampp\htdocs\cami\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 D:\xampp\htdocs\cami\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\xampp\htdocs\cami\app\Controllers\API\Productos.php(32): CodeIgniter\Model->insert(Object(stdClass))
+#6 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Productos->create()
+#7 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Productos))
+#8 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-19 22:57:16 --> id_valid_categoria is not a valid rule.
+#0 D:\xampp\htdocs\cami\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('id_valid_catego...')
+#1 D:\xampp\htdocs\cami\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('IdCategoria', 'IdCategoria', '2', Array, Array)
+#2 D:\xampp\htdocs\cami\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 D:\xampp\htdocs\cami\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 D:\xampp\htdocs\cami\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\xampp\htdocs\cami\app\Controllers\API\Productos.php(32): CodeIgniter\Model->insert(Object(stdClass))
+#6 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Productos->create()
+#7 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Productos))
+#8 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-19 22:57:20 --> id_valid_categoria is not a valid rule.
+#0 D:\xampp\htdocs\cami\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('id_valid_catego...')
+#1 D:\xampp\htdocs\cami\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('IdCategoria', 'IdCategoria', '2', Array, Array)
+#2 D:\xampp\htdocs\cami\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 D:\xampp\htdocs\cami\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 D:\xampp\htdocs\cami\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\xampp\htdocs\cami\app\Controllers\API\Productos.php(32): CodeIgniter\Model->insert(Object(stdClass))
+#6 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Productos->create()
+#7 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Productos))
+#8 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-19 22:57:24 --> id_valid_categoria is not a valid rule.
+#0 D:\xampp\htdocs\cami\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('id_valid_catego...')
+#1 D:\xampp\htdocs\cami\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('IdCategoria', 'IdCategoria', '2', Array, Array)
+#2 D:\xampp\htdocs\cami\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 D:\xampp\htdocs\cami\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 D:\xampp\htdocs\cami\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\xampp\htdocs\cami\app\Controllers\API\Productos.php(32): CodeIgniter\Model->insert(Object(stdClass))
+#6 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Productos->create()
+#7 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Productos))
+#8 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

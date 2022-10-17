@@ -1,0 +1,32 @@
+ERROR - 2022-07-13 19:18:05 --> Unknown column 'persona.FechaNac' in 'field list'
+CRITICAL - 2022-07-13 19:18:05 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(24): App\Models\UsuarioModel->listusu()
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->index()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-13 19:18:08 --> Unknown column 'persona.FechaNac' in 'field list'
+CRITICAL - 2022-07-13 19:18:08 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(24): App\Models\UsuarioModel->listusu()
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->index()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-13 19:19:27 --> Unknown column 'persona.FechaNac' in 'field list'
+CRITICAL - 2022-07-13 19:19:27 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(24): App\Models\UsuarioModel->listusu()
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->index()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-13 19:19:34 --> Unknown column 'persona.FechaNac' in 'field list'
+CRITICAL - 2022-07-13 19:19:34 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\cami\app\Controllers\API\Usuarios.php(24): App\Models\UsuarioModel->listusu()
+#1 D:\xampp\htdocs\cami\system\CodeIgniter.php(824): App\Controllers\API\Usuarios->index()
+#2 D:\xampp\htdocs\cami\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Usuarios))
+#3 D:\xampp\htdocs\cami\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\cami\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
