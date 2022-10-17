@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CAMI</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body class="sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed  accent-primary ">
+  
+  <app-root></app-root>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    function modificarSubtotales()
+   {
+
+     var cant = document.getElementsByName("cantidad[]");
+     var prec = document.getElementsByName("precio_compra[]");
+     var sub = document.getElementsByName("subtotal");
+
+     console.log(cant[0].value);
+     for (var i = 0; i <cant.length; i++) {
+       var inpC=cant[i];
+       var inpP=prec[i];
+       var inpS=sub[i];
+ 
+       inpS.value =inpC.value * inpP.value;
+
+       document.getElementsByName("subtotal")[i].innerHTML = inpS.value;
+     }
+
+     
+   //  calcularTotales();
+ 
+   }
+
+  </script>
+  
+</body>
+
+</html>

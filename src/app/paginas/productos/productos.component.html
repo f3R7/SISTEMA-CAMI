@@ -1,0 +1,216 @@
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1>Productos</h1>
+          </div>
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+              <li class="breadcrumb-item active">productos</li>
+            </ol>
+          </div>
+        </div>
+      </div><!-- /.container-fluid -->
+    </section>
+  
+    <!-- Main content -->
+    <section class="content">
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <div id="btnnuevo" class="card-header">
+  
+              <Button class="btn btn-success" (click)="verform(true)"><i class="fas fa-plus-square"></i> Nuevo</Button>
+            </div>
+  
+            <div id="form" class="card card-info">
+  
+              <form [formGroup]="productoForm" (ngSubmit)="guardar()">
+               <div class="card-body">
+                <div class="row">
+                 
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <label class="form-control-label" for="Nombre">Nombre</label>
+                      <div class="input-group ">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text "><i class="fa fa-wrench"></i></span>
+                        </div>
+                        <input type="hidden" formControlName="IdProducto" >
+                        <input type="text" class="form-control" formControlName="Nombre" placeholder="Nombre">
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <label class="form-control-label" for="IdCategoria">Categoria </label>
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text"><i class="fa fa-object-group"></i></span>
+                        </div>
+                        <select name="IdCategoria" class="form-control"
+                          formControlName="IdCategoria">
+                          <option  [value]="categoria.IdCategoria"  *ngFor="let categoria of categorias" >
+                       {{categoria.Nombre}}
+                          </option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <label class="form-control-label" for="Nombre">Marca </label>
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text"><i class="fa fa-building"></i></span>
+                        </div>
+                        <select name="IdMarca" class="form-control"
+                          formControlName="IdMarca">
+                          <option [value]="marca.IdMarca" *ngFor="let marca of marcas">
+                            {{marca.Nombre}}</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+
+                  
+                  <div class="col-lg-2">
+                    <div class="form-group">
+                      <label class="form-control-label" for="Precio">Precio</label>
+                      <div class="input-group ">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text "> <b>Bs</b> </span>
+                        </div>
+                        <input type="text" class="form-control" formControlName="Precio" placeholder="Precio">
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-lg-2">
+                    <div class="form-group">
+                      <label class="form-control-label" for="Stock">Stock</label>
+                      <div class="input-group ">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text "><i class="fa fa-balance-scale"></i></span>
+                        </div>
+                        <input type="text" class="form-control" formControlName="Stock" placeholder="Stock">
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-lg-8">
+                    <div class="form-group">
+                      <label class="form-control-label" for="Descripcion">Descripcion</label>
+                      <div class="input-group ">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text "><i class="fa fa-book"></i></span>
+                        </div>
+                        <input type="text" class="form-control" formControlName="Descripcion" placeholder="Descripcion">
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <label class="form-control-label" for="Imagen">Imagen</label>
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text "><i class="fas fa-images"></i></span>
+                        </div>
+                        <input type="file" (change)="guardarfoto($event)" class="form-control">
+                                 <input type="hidden" formControlName="Imagen">
+                        <div class="text-center">
+                                    <img [src]="imagenactual" alt="" style="width: 50%;">
+                                  
+                                   </div>
+                      </div>
+                    </div>
+                  </div>
+               
+
+  
+                  <div class="col-lg-12 text-right">
+                    <div class="form-group  inline-block">
+  
+                      <button type="submit" class="btn btn-primary mr-2"  [disabled]="!productoForm.valid"  > <i class="fas fa-save"></i> Guardar</button>
+  
+                      <a class="btn btn-danger" (click)="verform(false)"> <i class="fas fa-window-close"></i> Cerrar</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- /input-group -->
+              </div> 
+              </form>
+              
+              <!-- /.card-body -->
+            </div>
+  
+            <!-- /LISTA DE USUARIOS -->
+            <div id="lista" class="card-body">
+              <div class="table-responsive">
+              <table datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger" class="row-border hover table-striped">
+                <thead class="fondo text-light">
+                  <tr>
+                    <th>Imagen</th>
+                    <th>Nombre</th>
+                    <th>Categoria</th>
+                    <th>Precio</th>
+                    <th>Stock</th>
+                    <th>Estado</th>
+                    <th>Opciones</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let producto of productos"> 
+                    <td >  <img src="http://localhost/cami/{{producto.Imagen}}" alt="" class="imgtabla" >  </td>
+                    <td>{{ producto.Nombre }}</td>
+                    <td>{{ producto.category }}</td>
+                    <td>{{ producto.Precio }} Bs</td>
+                    <td>{{ producto.Stock }} </td>
+                    <td>
+                      <span *ngIf="producto.Estado==0" class="badge bg-danger">Deshabilitado</span>
+                      <span *ngIf="producto.Estado==1" class="badge bg-success">Habilitado</span>
+                    </td>
+                    <td> 
+                      <div  (click)="activar(producto.IdProducto)" class="btn btn-sm btn-success text-white" *ngIf="producto.Estado==0">
+                          <i class="fas fa-check-circle text-light"></i>
+                      </div>
+  
+                    <div (click)="desactivar(producto.IdProducto)" class="btn btn-sm btn-danger text-white" *ngIf="producto.Estado==1"> 
+                        <i class="fas fa-times-circle text-light"></i>
+                  </div>
+  
+                  &nbsp;
+                  
+                  <div (click)="editar(producto.IdProducto)" class="btn btn-sm btn-warning text-white" >
+                 
+                      <i class="fas fa-edit text-light"></i>
+                </div>
+                  </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            </div>
+            <!-- /.card-body -->
+          </div>
+          <!-- /.card -->
+          <!-- /.card -->
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+    </section>
+    <!-- /.content -->
+  </div>

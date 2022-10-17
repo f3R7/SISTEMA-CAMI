@@ -1,0 +1,9 @@
+.color-texto {
+    color: rgb(235, 235, 235);
+}
+
+.imagen-nav{
+    align-items: center;
+display: flex;
+justify-content: center;
+}

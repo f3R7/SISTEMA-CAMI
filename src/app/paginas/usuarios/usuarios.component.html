@@ -1,0 +1,264 @@
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1>Usuarios</h1>
+          </div>
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+              <li class="breadcrumb-item active">Usuarios</li>
+            </ol>
+          </div>
+        </div>
+      </div><!-- /.container-fluid -->
+    </section>
+  
+    <!-- Main content -->
+    <section class="content ">
+      <div class="row">
+        <div class="col-12">
+          <div class="card border-5">
+            <div id="btnnuevo" class="card-header">
+  
+              <Button class="btn btn-primary fondoboton" (click)="verform(true)"><i class="fas fa-user-plus"></i> Nuevo</Button>
+            </div>
+  
+            <div id="form" class="card card-info">
+  
+              <form [formGroup]="UsuarioForm" (ngSubmit)="guardar()" >
+               <div class="card-body">
+                <div class="row">
+                 
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <label class="form-control-label" for="Nombres">Nombres</label>
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text "><i class="fas fa-address-card"></i></span>
+                        </div>
+                        <input type="hidden" formControlName="IdUsuario">
+                        <input type="hidden" formControlName="IdPersona">
+               
+                        <input type="text" class="form-control" formControlName="Nombres" placeholder="Nombres">
+                      </div>
+                    </div>
+                  </div>
+  
+  
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <label class="form-control-label" for="Apellidos">Apellidos</label>
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text "><i class="fas fa-address-card"></i></span>
+                        </div>
+                        <input type="text" class="form-control" formControlName="Apellidos" placeholder="Apellidos">
+                      </div>
+                    </div>
+                  </div>
+  
+  
+  
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <label class="form-control-label" for="Cedula">Cedula</label>
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text "><i class="fas fa-id-card-alt"></i></span>
+                        </div>
+                        <input type="text" class="form-control" formControlName="Cedula" placeholder="Cedula">
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <label class="form-control-label" for="FechaNac">Telefono</label>
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text"><i class="fa fa-phone-square"></i></span>
+                        </div>
+                        <input type="text" class="form-control" formControlName="Telefono" placeholder="Telefono">
+                      </div>
+                    </div>
+                  </div>
+  
+  
+  
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <label class="form-control-label" for="Direccion">Ciudad</label>
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
+                        </div>
+                        <input type="text" class="form-control" formControlName="Ciudad" placeholder="Ciudad">
+                      </div>
+                    </div>
+                  </div>
+  
+             
+  
+                  
+  
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <label class="form-control-label" for="Email">Email</label>
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text "><i class="fas fa-envelope"></i></span>
+                        </div>
+                        <input type="email" class="form-control" formControlName="Email" placeholder="Email">
+                      </div>
+                    </div>
+                  </div>
+  
+                  
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <label class="form-control-label" for="Rol">Rol</label>
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text "><i class="fas fa-user-tag"></i></span>
+                        </div>
+                        <select name="Rol" class="form-control" formControlName="IdRol" id="rol">
+                          <option [value]="rol.IdRol" *ngFor="let rol of roles">{{rol.Nombre}}</option>
+                        </select>
+                        <!--<input type="email" class="form-control" formControlName="Rol" placeholder="Rol">-->
+                      </div>
+                    </div>
+                  </div>
+                
+  
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <label class="form-control-label" for="Login">Nombre de Usuario</label>
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text "><i class="fas fa-user"></i></span>
+                        </div>
+                        <input type="text" class="form-control" id="usu" formControlName="Login" placeholder="Nombre de usuario">
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="col-lg-4">
+                    <div class="form-group">
+                      <label class="form-control-label" for="Clave">Contraseña</label>
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          
+                          <span class="input-group-text "><i class="fas fa-key"></i></span>
+                        </div>
+                        <input type="password" class="form-control" formControlName="Clave" placeholder="Contraseña">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <label class="form-control-label" for="Imagen">Foto</label>
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text "><i class="fas fa-images"></i></span>
+                        </div>
+                        <input type="file" (change)="guardarfoto($event)" class="form-control">
+                                 <input type="hidden" formControlName="Foto">
+                        <div class="text-center">
+                                    <img [src]="imagenactual" alt="" style="width: 50%;">
+                                  
+                                   </div>
+                      </div>
+                    </div>
+                  </div>
+  
+             
+                  <div class="col-lg-12 text-right">
+                    
+                    <div class="form-group  inline-block">
+  
+                      <button type="submit" class="btn btn-primary mr-2"  > <i class="fas fa-save"></i> Guardar</button>
+  
+                      <a type="button" class="btn btn-danger" (click)="verform(false)" > <i class="fas fa-window-close"></i> Cerrar</a>
+                    </div>
+                  </div>
+  
+                </div>
+                <!-- /input-group -->
+              </div> 
+              </form>
+              
+              
+              <!-- /.card-body -->
+            </div>
+  
+  
+            <!-- /LISTA DE USUARIOS -->
+            <div id="lista" class="card-body">
+              <div class="table-responsive">
+              <table datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger" class="row-border hover table-striped">
+                <thead class="fondo text-light">
+                  <tr>
+                    <th>Foto</th>
+                    <th>Nombre</th>
+                    <th>CI</th>
+                    <th>Celular</th>
+                    <th>Email</th>
+                    <th>Rol</th>
+                    <th>Estado</th>
+                    <th>Opciones</th>
+                  </tr>
+                </thead>
+                <tbody>
+             
+                  <tr *ngFor="let usuario of usuarios "> 
+                  <td >  <img src="http://localhost/cami/{{usuario.Foto}}" alt="" class="imgtabla" >
+                  </td>
+                    <td>{{ usuario.Nombres }}  {{usuario.Apellidos}}</td>
+                    <td>{{ usuario.Cedula }}</td>
+                    <td>{{ usuario.Telefono }}</td>
+                    <td>{{ usuario.Email }}</td>
+                    <td>{{ usuario.Rol }}</td>
+                    <td>
+                      <span *ngIf="usuario.Estado==0" class="badge bg-danger">Deshabilitado</span>
+                      <span *ngIf="usuario.Estado==1" class="badge bg-success">Habilitado</span>
+                    </td>
+                    <td> 
+                      <div  (click)="habilitar(usuario.IdUsuario)"class="btn btn-sm btn-success text-white" *ngIf="usuario.Estado==0">
+                          <i class="fas fa-check-circle text-light"></i>
+                       
+                    </div>
+  
+                    <div (click)="deshabilitar(usuario.IdUsuario)" class="btn btn-sm btn-danger text-white" *ngIf="usuario.Estado==1">
+                        <i class="fas fa-times-circle text-light"></i>
+                  </div>
+  
+                  &nbsp;
+                  
+                  <div (click)="editar(usuario.IdUsuario)" class="btn btn-sm btn-warning text-white" >
+                      <i class="fas fa-edit text-light"></i>
+                </div>
+  
+                  </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            </div>
+            <!-- /.card-body -->
+          </div>
+          <!-- /.card -->
+  
+  
+          <!-- /.card -->
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+    </section>
+    <!-- /.content -->
+  </div>

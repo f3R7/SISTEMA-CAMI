@@ -1,0 +1,196 @@
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper ">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1>Ingresos</h1>
+          </div>
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+              <li class="breadcrumb-item active">Ingresos</li>
+            </ol>
+          </div>
+        </div>
+      </div><!-- /.container-fluid -->
+    </section>
+  
+    <!-- Main content -->
+    <section class="content">
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <div id="btnnuevo" class="card-header">
+              <Button class="btn btn-success" (click)="verform(true)"><i class="fas fa-plus-square"></i> Nuevo</Button>
+            </div>
+  
+            <div id="form" class="card card-info  ">
+  
+              <form method="post" action="">
+
+                <div class="row">
+               <div class="card-body col-lg-12">
+                <div class="row">
+                 
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <label class="form-control-label" for="Nombre">Fecha</label>
+                      <div class="input-group ">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text "><i class="fas fa-calendar"></i></span>
+                        </div>
+                        <input type="date" class="form-control" id="Fecha" placeholder="Nombre">
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <label class="form-control-label" for="Nombre">Agregar Productos</label>
+                    <br>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Ver productos</button>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
+                    <table class="table table-striped">
+
+                      <thead style="background-color:#1ca12e; color: aliceblue;">
+                        <th>Opciones</th>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                        <th>Precio Compra</th>
+                        <th>Subtotal</th>
+                    </thead>
+
+                      <tbody>
+                      <tr *ngFor="let item of detalleserv.cart.productoitems">
+
+                        <td><button type="button" class="btn btn-danger" (click)="eliminarprod(item)" id="remove"><i class="fa fa-trash" aria-hidden="true"></i></button> </td>
+                        <td >  {{item.detalles.Nombre}}</td>
+                        <td><input type="number" [(ngModel)]="item.cantidad" size="2" name="cantidad"/></td>
+                        <td><input type="number"  [(ngModel)]="item.detalles.precio" size="2" name="precio"/></td>
+                        <td>{{item.cantidad * item.detalles.precio}} Bs </td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">&nbsp;</td>
+                        <td> <h4> <b> Total: {{detalleserv.cart.getTotalValue()}} Bs </b></h4> </td>
+               
+                      </tr>  
+                    </tbody>
+                    </table>
+                  </div>
+
+
+                  
+                  <div class="col-lg-12 text-center">
+                    <div class="form-group  inline-block">
+  
+                    
+                      <button type="submit" class="btn btn-primary mr-2" (click)="guardar()"> <i class="fas fa-save"></i> Guardar</button>
+  
+                      <a class="btn btn-danger" (click)="verform(false)"> <i class="fas fa-window-close"></i> Cerrar</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+           
+            </div>
+
+              </form>
+            </div>
+
+<!-- LISTA DE PRODUCTOS-->
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="table-responsive">
+                  <table datatable [dtOptions]="dtOptionsp" [dtTrigger]="dtTriggerp" class="row-border hover table-striped">
+                    <thead class="fondo text-light">
+                      <tr>
+                        <th>Imagen</th>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                        <th>Stock</th>
+                        <th>Opciones</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr *ngFor="let producto of productos"> 
+                  
+                        <td >  <img src="http://localhost/cami/{{producto.Imagen}}" alt="" class="imgtabla" >  </td>
+                        <td>{{ producto.Nombre }}</td>
+                        <td>{{ producto.Precio }} Bs</td>
+                        <td>{{ producto.Stock }} </td>
+                        <td> 
+                          <button name="btn-{{producto.IdProducto}}" (click)="agregar(producto)" class="btn btn-sm btn-success text-white" >
+                              <i class="fas fa-edit text-light"></i>
+                        </button>
+                          </td>
+
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!--  FIN LISTA DE PRODUCTOS-->          
+
+            <div id="lista" class="card-body">
+              <div class="table-responsive">
+              <table datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger" class="row-border hover table-striped">
+                <thead class="fondo text-light">
+                  <tr>
+                    <th>Opciones</th>
+                    <th>Fecha</th>
+                    <th>Total</th>
+                    <th>Estado</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let ingreso of ingresos"> 
+                    <td> 
+                    <div (click)="verdetalle(ingreso.IdIngreso)" class="btn btn-sm btn-warning text-white" >
+                        <i class="fas fa-edit text-light"></i>
+                  </div>
+                    </td>
+                    <td>{{ ingreso.Fecha }}</td>
+                    <td>{{ ingreso.Total }}</td>
+                    <td>
+                      <span *ngIf="ingreso.Estado==0" class="badge bg-danger">Deshabilitado</span>
+                      <span *ngIf="ingreso.Estado==1" class="badge bg-success">Habilitado</span>
+                    </td>
+                 
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            </div>
+            <!-- /.card-body -->
+          </div>
+          <!-- /.card -->
+          <!-- /.card -->
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+    </section>
+    <!-- /.content -->
+  </div>
